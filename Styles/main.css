@@ -88,6 +88,11 @@ img {
   height: 100%;
 }
 
+html,
+body {
+  overflow-x: hidden;
+}
+
 body {
   font-family: var(--ff-pr), sans-serif;
 }
@@ -370,7 +375,6 @@ button {
 .section--hero .section__imgs {
   position: relative;
   z-index: 2;
-  overflow-x: clip;
 }
 @media (min-width: 1200px) {
   .section--hero .section__imgs {
